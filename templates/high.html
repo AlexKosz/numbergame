@@ -1,0 +1,11 @@
+<h1>Welcome to the number game (its not all that great)</h1>
+<h3>I picked a number between 1 and 100. Guess it. Now.</h3>
+
+<div style="display: flex; align-items: center; justify-content: center; background-color: red;">
+    <h1>Too High</h1>
+</div>
+
+<form action='/result' method='post'>
+    <input type='number' name='guessedNum'>
+    <input type='submit' value='guess'>
+</form>
